@@ -1,1 +1,117 @@
 /* Add screen styles below */
+
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #424242;
+    padding: 30px;
+}
+
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    font-style: bold;
+}
+
+a {
+    color: #424242;
+    line-height: 1.4em;
+}
+
+#images {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image1 {
+    background: bottom / cover url("images/cali1.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image2 {
+    background: bottom / cover url("images/cali2.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image3 {
+    background: bottom / cover url("images/cali3.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image4 {
+    background: bottom / cover url("images/cali4.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image5 {
+    background: bottom / cover url("images/colorado1.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image6 {
+    background: bottom / cover url("images/colorado2.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image7 {
+    background: bottom / cover url("images/hawaii1.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image8 {
+    background: bottom / cover url("images/hawaii2.png");
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#detailed-image {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#detailed-image .image9 {
+    background: bottom / cover url("images/mich1.png");
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#detailed-image .image-description {
+    width: 460px;
+    background: #E9EAEC;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 1.4em;
+}
